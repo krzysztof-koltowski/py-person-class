@@ -9,7 +9,7 @@ class Person:
 
 
 def create_person_list(people_data):
-    # Pierwszy przebieg: tworzymy wszystkie osoby bez ustawiania związków
+    # Pierwszy przebieg: tworzymy wszystkie osoby bez ustawiania związków małżeńskich
     person_list = []
     for person_dict in people_data:
         name = person_dict["name"]
